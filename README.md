@@ -25,10 +25,9 @@ Sales analysis is crucial for businesses inform data-driven decisions. This proj
    ii. Data visualizations and insights.
 
 - ### Data Description 
-   - Data Source: Public Sales dataset
-   - Data Period: January 2023 - August 2024
-   - Variables:
-   1. OrderID (Unique identifier for each order 
+  - Data Source: Public Sales dataset
+  - Data Period: January 2023 - August 2024.        - Variables:
+  1. OrderID (Unique identifier for each order 
    2. CustomerId (Unique identifier identifier for each customer)
    3. Product (Product name)
    4. Region. ( Geographic region)
