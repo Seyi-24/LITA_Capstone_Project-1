@@ -23,3 +23,15 @@ Sales analysis is crucial for businesses inform data-driven decisions. This proj
   - Methodolog:
    i. Data analysis using Microsoft Excel,MySQL,and Power BI.
    ii. Data visualizations and insights.
+
+- ### Data Description 
+   - Data Source: Public Sales dataset
+   - Data Period: January 2023 - August 2024
+   - Variables:
+   1. OrderID (Unique identifier for each order 
+   2. CustomerId (Unique identifier identifier for each customer)
+   3. Product (Product name)
+   4. Region. ( Geographic region)
+   5. OrderDate (Date of order)
+   6. Quantity (Number of units sold)
+   7. UnitPrice (Price per unit)
