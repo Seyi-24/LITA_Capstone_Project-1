@@ -30,13 +30,13 @@ iii. Analyze monthly sales trend.
  - Data Period: January 2023 - August 2024.  
 
 - Variables:
-  1. OrderID (Unique identifier for each order 
-  2. CustomerId (Unique identifier identifier for each customer)
-  3. Product (Product name)
-  4. Region. ( Geographic region)
-  5. OrderDate (Date of order)
-  6. Quantity (Number of units sold)
-  7. UnitPrice (Price per unit)
+ 1. OrderID (Unique identifier for each order 
+ 2. CustomerId (Unique identifier identifier for each customer)
+ 3. Product (Product name)
+ 4. Region. (Geographic region)
+ 5. OrderDate (Date of order)
+ 6. Quantity (Number of units sold)
+ 7. UnitPrice (Price per unit)
 
 - Notes: This dataset represents sales transactions for a retail store.
 - Data Format: xlsx
