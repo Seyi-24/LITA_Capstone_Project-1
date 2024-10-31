@@ -17,10 +17,11 @@ Sales analysis is crucial for businesses inform data-driven decisions. This proj
 
 - ### Project Overview 
  - Objectives:
-  i. Identify top-selling products 
- ii. Evaluate regional performance 
-iii. Analyze monthly sales trend 
- - Methodolog:
+  I. Identify top-selling products.
+ ii. Evaluate regional performance.
+iii. Analyze monthly sales trend.
+
+ - Methodology:
   i. Data analysis using Microsoft Excel,MySQL,and Power BI.
  ii. Data visualizations and insights.
 
@@ -37,8 +38,12 @@ iii. Analyze monthly sales trend
   6. Quantity (Number of units sold)
   7. UnitPrice (Price per unit)
 
+- Notes: This dataset represents sales transactions for a retail store.
 - Data Format: xlsx
 
-- Data Transformation 
-  i. Data cleaning by removing duplicates
- ii. 
+- ### Data Cleaning 
+ - Data Import: Imported Sales data into my Microsoft Excel
+ - Data Inspection: Reviewed data for duplicates records 
+ - Data Transformation: converted data format to YYYY-MM-DD
+
+### Excel Analysis 
