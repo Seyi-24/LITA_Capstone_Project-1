@@ -1,4 +1,18 @@
 # LITA_DATA_ANALYSIS_CLASS_PROJECT
+....
+
+## Table of Content
+- Introduction 
+- Project Overview 
+- Data Description 
+- Data Cleaning 
+- Excel Analysis 
+- MySQL Analysis 
+- Power BI Analysis 
+- Insights and Findings 
+-Conclusion 
+
+The Retail Store Sales Analysis is a practical exploration of sales analysis which focuses on analyzing top-selling products, regional performance, and monthly sales trend. 
 
 ## Project Title: Sales Performance Analysis for a Retale Store
 
