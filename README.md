@@ -47,3 +47,7 @@ iii. Analyze monthly sales trend.
  - Data Transformation: converted data format to YYYY-MM-DD
 
 ### Excel Analysis 
+Objectives: Analyze sales data to identify trends,patterns,and insights.
+ -Steps:
+ - Data Preparation: Removed duplicates and created a new column named 'Total Sales'
+ - Pivot Tables:
