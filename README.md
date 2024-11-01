@@ -2,6 +2,7 @@
 
 
 ## Table of Content
+
 - Introduction [Introduction](#introduction)
 - Project Overview [Project Overview](#project-overview)
 - Data Description [Data Description](#data-description)
@@ -9,7 +10,8 @@
 - Tool Used:
   - Excel Analysis 
   - MySQL Analysis 
-  - Power BI Analysis 
+  - Power BI Analysis
+
 - Insights and Findings 
 -Conclusion 
 
@@ -48,20 +50,28 @@ Sales analysis is crucial for businesses inform data-driven decisions. This proj
  - Data Transformation: converted data format to YYYY-MM-DD
 
 ### Tool Used
-- Microsoft Excel for data cleaning and analysis 
+- Microsoft Excel for data cleaning and transformation 
 - MySQL for analysis 
-- Power BI for visualization
+- Power BI for modeling and visualization
 
 ### Excel Analysis 
 Objectives: Analyze sales data to identify trends,patterns,and insights.
  
 -Steps:
  - Data Preparation: Removed duplicates and created a new column named 'Total Sales'
+- Sales Summary:
+- Total Sales: 2,101,090 (formula: =SUM(Total Sales Column)
+- Average Sales: 211.78 (formula: =AVERAGE(Total Sales Column)
+- Top 
+ - Pivot Tables 
 
- Pivot Tables 
+ ![Pivot Table](https://github.com/user-attachments/assets/4be695da-a2b5-4760-be99-0573e420b57d)
+
+ ![Excel Dashboard](https://github.com/user-attachments/assets/e05cf58d-f029-4354-97fe-fecd2183ee69)
 
 This Pivot table sheet shows the summary of total sales by product,region, and month.
-**Total Sales by Product:**
+
+- MySQL Analysis
 
 - Shoes lead with the highest sales (613,380), indicating the strong demand of the product.
 - Socks has the lowest sales of (180,785), indicating the low demand of the product suggesting opportunities for improvement.
@@ -92,18 +102,16 @@ This Pivot table sheet shows the summary of total sales by product,region, and m
 
 *Key Insights and Recommendations:*
 
-1. *Product Optimization:* Focus on improving Socks sales through targeted marketing, product redesign, or pricing adjustments.
-2. *Regional Growth:* Invest in expanding market presence in the West region.
-3. *Seasonal Strategies:* Develop seasonal marketing campaigns to capitalize on February demand and mitigate April slowdowns.
-4. *Product Development:* Consider introducing new Shirt variants or bundling strategies to maintain high sales.
-5. *Inventory Management:* Monitor Hat demand and adjust inventory accordingly to meet customer needs.
+1. Product Optimization: Focus on improving Socks sales through targeted marketing, product redesign, or pricing adjustments.
+2. Regional Growth: Invest in expanding market presence in the West region.
+3. Seasonal Strategies: Develop seasonal marketing campaigns to capitalize on February demand and mitigate April slowdowns.
+4. Product Development: Consider introducing new Shirt variants or bundling strategies to maintain high sales.
+5. Inventory Management: Monitor Hat demand and adjust inventory accordingly to meet customer needs.
 
-*Conclusion:*
+### Conclusion:
 
 This analysis provides valuable insights into sales trends, highlighting areas for improvement and opportunities for growth. By addressing these findings, we can refine our business strategies to drive sales, enhance customer satisfaction, and maintain a competitive edge.
 
-*Limitations:*
 
-This analysis is based on historical data and may not account for external factors influencing sales. Future analysis should incorporate additional data points and market research to ensure comprehensive understanding.
 
 
