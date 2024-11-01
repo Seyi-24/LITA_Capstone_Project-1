@@ -63,7 +63,7 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
 
 
 This Pivot table sheet shows the summary of total sales by product,region, and month.
-**Total Sales by Product:
+**Total Sales by Product:**
 
   
 
