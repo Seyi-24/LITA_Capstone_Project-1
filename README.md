@@ -7,9 +7,9 @@
 - Data Description 
 - Data Cleaning 
 - Tool Used:
-  - Excel Analysis 
-  - MySQL Analysis 
-  - Power BI Analysis 
+ - Excel Analysis 
+ - MySQL Analysis 
+ - Power BI Analysis 
 - Insights and Findings 
 -Conclusion 
 
