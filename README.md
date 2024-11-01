@@ -72,7 +72,24 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
  ![Excel Dashboard](https://github.com/user-attachments/assets/e05cf58d-f029-4354-97fe-fecd2183ee69)
 
 
-- MySQL Analysis
+- ### MySQL Analysis
+
+- Total sales for each product category 
+```sql
+SELECT
+
+
+- Number of sales transactions in each region 
+```sql
+SELECT
+
+
+- Highest selling-product by total sales value
+```sql
+SELECT 
+
+- 
+
 
 - Shoes lead with the highest sales (613,380), indicating the strong demand of the product.
 - Socks has the lowest sales of (180,785), indicating the low demand of the product suggesting opportunities for improvement.
