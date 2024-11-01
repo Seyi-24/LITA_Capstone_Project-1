@@ -5,7 +5,7 @@
 - Introduction [Introduction](#introduction)
 - Project Overview [Project Overview](#project-overview)
 - Data Description [Data Description](#data-description)
-- Data Cleaning 
+- Data Cleaning [Data Cleaning](#data-cleaning)
 - Tool Used:
   - Excel Analysis 
   - MySQL Analysis 
