@@ -102,7 +102,8 @@ LIMIT 1;
 ```sql
 SELECT Product, SUM(Quantity*UnitPrice) AS Total_Revenue
 FROM lita_capstone_dataset_salesdata
-GROUP BY Product;
+GROUP BY Product
+ORDER BY Total_Revenue DESC;
 ```
 
 5. Monthly Sales Total for the current year 
