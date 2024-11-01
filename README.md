@@ -10,7 +10,7 @@
 - Tool Used:
   - Excel Analysis [Excel Analysis](#excel-analysis)
   - MySQL Analysis [MySQL Analysis](#mysql_analysis)
-  - Power BI Analysis
+  - Power BI Analysis [Power BI Analysis](#power_bi_analysis)
 
 - Insights and Findings 
 -Conclusion 
@@ -143,6 +143,7 @@ o.product = p.product AND o.OrderDate >= DATE_SUB)CURDATE(), INTERVAL 3 MONTH)
 )
 ```
 
+- ###Power BI Analysis 
 
 - Shoes lead with the highest sales (613,380), indicating the strong demand of the product.
 - Socks has the lowest sales of (180,785), indicating the low demand of the product suggesting opportunities for improvement.
