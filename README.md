@@ -8,7 +8,7 @@
 - Data Description [Data Description](#data-description)
 - Data Cleaning [Data Cleaning](#data-cleaning)
 - Tool Used:
-  - Excel Analysis 
+  - Excel Analysis [Excel Analysis](excel-analysis)
   - MySQL Analysis 
   - Power BI Analysis
 
@@ -66,10 +66,11 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
  - Pivot Tables 
 
  ![Pivot Table](https://github.com/user-attachments/assets/4be695da-a2b5-4760-be99-0573e420b57d)
+ 
+ This Pivot table sheet shows the summary of total sales by product,region, and month. 
 
  ![Excel Dashboard](https://github.com/user-attachments/assets/e05cf58d-f029-4354-97fe-fecd2183ee69)
 
-This Pivot table sheet shows the summary of total sales by product,region, and month.
 
 - MySQL Analysis
 
