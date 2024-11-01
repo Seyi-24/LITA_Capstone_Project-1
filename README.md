@@ -3,7 +3,7 @@
 
 ## Table of Content
 - Introduction [Introduction](#introduction)
-- Project Overview 
+- Project Overview [Project Overview](#project-overview)
 - Data Description 
 - Data Cleaning 
 - Tool Used:
