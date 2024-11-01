@@ -105,6 +105,44 @@ FROM lita_capstone_dataset_salesdata
 GROUP BY Product;
 ```
 
+5. Monthly Sales Total for the current year 
+```sql
+SELECT MONTHNAME(OrderDate) AS Month,SUM(Quantity*UnitPrice) AS Total_Sales
+FROM lita_capstone_dataset_salesdata
+WHERE YEAR(OrderDate) = YEAR(CURRENT_DATE)
+GROUP BY MONTHNAME(OrderDate)
+ORDER BY MONTHNAME(OrderDate);
+```
+
+6. Top 5 Customers by Total Purchase Amount
+```sql
+SELECT CustomerId,SUM(Quantity*UnitPrice) AS Total_Purchase_Amount
+FROM lita_capstone_dataset_salesdata
+GROUP BY CustomerId 
+ORDER BY Total_Purchase_Amount DESC
+LIMIT 5;
+```
+
+7. Percentage (%) of Total Sales Contributed by each Region 
+```sql
+SELECT Region,SUM(Quantity*UnitPrice) AS Total_Sales,
+(SUM(Quantity*UnitPrice) / (SELECT SUM(Quantity*UnitPrice) FROM lita_capstone_dataset_salesdata * 100 AS percentage 
+FROM lita_capstone_dataset_salesdata
+GROUP BY Region;
+```
+
+8. Products with no Sales in the last Quarter 
+```sql
+SELECT p.product
+FROM (SELECT DISTINCT product FROM lita_capstone_dataset_salesdata) p
+WHERE NOT EXISTS (
+SELECT 1
+FROM lita_capstone_dataset_salesdata o
+WHERE
+o.product = p.product AND o.OrderDate >= DATE_SUB)CURDATE(), INTERVAL 3 MONTH)
+)
+```
+
 
 - Shoes lead with the highest sales (613,380), indicating the strong demand of the product.
 - Socks has the lowest sales of (180,785), indicating the low demand of the product suggesting opportunities for improvement.
