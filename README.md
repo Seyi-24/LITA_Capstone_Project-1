@@ -8,8 +8,8 @@
 - Data Description [Data Description](#data-description)
 - Data Cleaning [Data Cleaning](#data-cleaning)
 - Tool Used:
-  - Excel Analysis [Excel Analysis](excel-analysis)
-  - MySQL Analysis 
+  - Excel Analysis [#Excel Analysis](excel-analysis)
+  - MySQL Analysis [#MySQL Analysis](mysql_analysis)
   - Power BI Analysis
 
 - Insights and Findings 
