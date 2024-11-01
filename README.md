@@ -111,7 +111,7 @@ SELECT MONTHNAME(OrderDate) AS Month,SUM(Quantity*UnitPrice) AS Total_Sales
 FROM lita_capstone_dataset_salesdata
 WHERE YEAR(OrderDate) = YEAR(CURRENT_DATE)
 GROUP BY MONTHNAME(OrderDate)
-ORDER BY MONTHNAME(OrderDate);
+ORDER BY Total_Sales DESC;
 ```
 
 6. Top 5 Customers by Total Purchase Amount
