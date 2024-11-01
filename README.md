@@ -74,22 +74,30 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
 
 - ### MySQL Analysis
 
-- Total Sales by Product Category 
+1. Total Sales by Product Category 
 ```sql
 SELECT SUM(Quantity*UnitPrice) AS TotalSales
 FROM lita_capstone_dataset_salesdata
+GROUP BY Product
+ORDER BY TotalSales DESC;
 
 ```
 
-- Number of sales transactions in each region 
+2. Number of Sales Transactions in each Region 
 ```sql
-SELECT
+SELECT Region, COUNT(OrderID) AS Number_of_Sales_Transactions
+FROM lita_capstone_dataset_salesdata
+GROUP BY Region;
 
 ```
 
-- Highest selling-product by total sales value
+3. Highest Selling-Product by Total Sales Value
 ```sql
-SELECT 
+SELECT Product,SUM(Quantity*UnitPrice) AS Total_Sales_Value
+FROM lita_capstone_dataset_salesdata
+GROUP BY Product 
+ORDER BY Total_Sales_Value DESC
+LIMIT 1;
 
 ```
 
