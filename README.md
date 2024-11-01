@@ -60,6 +60,7 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
 
  Pivot Tables 
 
+https://github.com/Seyi-24/LITA_DATA_ANALYSIS_CLASS_PROJECT/blob/main/Pivot%20Table.png
 
 This Pivot table sheet shows the summary of total sales by product,region, and month.
 **Total Sales by Product:
