@@ -74,9 +74,10 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
 
 - ### MySQL Analysis
 
-- Total sales for each product category 
+- Total Sales by Product Category 
 ```sql
-SELECT
+SELECT SUM(Quantity*UnitPrice) AS TotalSales
+FROM lita_capstone_dataset_salesdata
 
 ```
 
