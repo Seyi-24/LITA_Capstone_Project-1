@@ -4,7 +4,7 @@
 ## Table of Content
 - Introduction [Introduction](#introduction)
 - Project Overview [Project Overview](#project-overview)
-- Data Description 
+- Data Description [Data Description](#data-description)
 - Data Cleaning 
 - Tool Used:
   - Excel Analysis 
