@@ -80,7 +80,6 @@ SELECT SUM(Quantity*UnitPrice) AS TotalSales
 FROM lita_capstone_dataset_salesdata
 GROUP BY Product
 ORDER BY TotalSales DESC;
-
 ```
 
 2. Number of Sales Transactions in each Region 
@@ -88,7 +87,6 @@ ORDER BY TotalSales DESC;
 SELECT Region, COUNT(OrderID) AS Number_of_Sales_Transactions
 FROM lita_capstone_dataset_salesdata
 GROUP BY Region;
-
 ```
 
 3. Highest Selling-Product by Total Sales Value
@@ -98,10 +96,14 @@ FROM lita_capstone_dataset_salesdata
 GROUP BY Product 
 ORDER BY Total_Sales_Value DESC
 LIMIT 1;
-
 ```
 
-- 
+4. Total Revenue by Product 
+```sql
+SELECT Product, SUM(Quantity*UnitPrice) AS Total_Revenue
+FROM lita_capstone_dataset_salesdata
+GROUP BY Product;
+```
 
 
 - Shoes lead with the highest sales (613,380), indicating the strong demand of the product.
