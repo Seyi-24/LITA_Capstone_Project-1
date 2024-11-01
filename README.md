@@ -6,26 +6,27 @@
 - Project Overview 
 - Data Description 
 - Data Cleaning 
+- Tool Used:
 - Excel Analysis 
 - MySQL Analysis 
 - Power BI Analysis 
 - Insights and Findings 
 -Conclusion 
 
-- ### Introduction 
+ ### Introduction 
 Sales analysis is crucial for businesses inform data-driven decisions. This project explores sales performance,focusing on top-selling products,regional performance,and monthly sales trends.
 
-- ### Project Overview 
+ ### Project Overview 
  - Objectives:
-  I. Identify top-selling products.
- ii. Evaluate regional performance.
-iii. Analyze monthly sales trend.
+ 1. Identify top-selling products.
+ 2. Evaluate regional performance.
+ 3. Analyze monthly sales trend.
 
  - Methodology:
-  i. Data analysis using Microsoft Excel,MySQL,and Power BI.
- ii. Data visualizations and insights.
+  - Data analysis using Microsoft Excel,MySQL,and Power BI.
+  - Data visualizations and insights.
 
-- ### Data Description 
+ ### Data Description 
  - Data Source: Public Sales dataset
  - Data Period: January 2023 - August 2024.  
 
@@ -41,13 +42,19 @@ iii. Analyze monthly sales trend.
 - Notes: This dataset represents sales transactions for a retail store.
 - Data Format: xlsx
 
-- ### Data Cleaning 
+  ### Data Cleaning 
  - Data Import: Imported Sales data into my Microsoft Excel
  - Data Inspection: Reviewed data for duplicates records 
  - Data Transformation: converted data format to YYYY-MM-DD
 
+### Tool Used
+- Microsoft Excel for data cleaning and analysis 
+- MySQL for analysis 
+- Power BI for visualization
+
 ### Excel Analysis 
 Objectives: Analyze sales data to identify trends,patterns,and insights.
- -Steps:
+ 
+-Steps:
  - Data Preparation: Removed duplicates and created a new column named 'Total Sales'
  - Pivot Tables:
