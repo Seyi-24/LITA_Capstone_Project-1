@@ -78,15 +78,19 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
 ```sql
 SELECT
 
+```
 
 - Number of sales transactions in each region 
 ```sql
 SELECT
 
+```
 
 - Highest selling-product by total sales value
 ```sql
 SELECT 
+
+```
 
 - 
 
