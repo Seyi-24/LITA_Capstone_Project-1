@@ -2,7 +2,7 @@
 
 
 ## Table of Content
-- Introduction [Introduction](introduction)
+- Introduction [Introduction](#introduction)
 - Project Overview 
 - Data Description 
 - Data Cleaning 
