@@ -1,5 +1,5 @@
 # LITA_DATA_ANALYSIS_CLASS_PROJECT
-....
+
 
 ## Table of Content
 - Introduction 
@@ -57,4 +57,11 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
  
 -Steps:
  - Data Preparation: Removed duplicates and created a new column named 'Total Sales'
- - Pivot Tables:
+
+ Pivot Tables 
+
+
+This Pivot table sheet shows the summary of total sales by product,region, and month. Key findings include:
+
+  
+
