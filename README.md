@@ -166,8 +166,8 @@ o.product = p.product AND o.OrderDate >= DATE_SUB)CURDATE(), INTERVAL 3 MONTH)
 
 *Product Quantity Sold:*
 
-- Hats top the list with 1,991 units sold, demonstrating popularity.
-- Gloves and Socks tie for the lowest with 1,484 units sold, suggesting opportunities to boost sales.
+- Hats top the list with 15,929 units sold, demonstrating popularity.
+- Jackets has the lowest with 5,452 units sold, suggesting opportunities to boost sales.
 
 ### visualizations 
 
