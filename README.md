@@ -151,7 +151,7 @@ o.product = p.product AND o.OrderDate >= DATE_SUB)CURDATE(), INTERVAL 3 MONTH)
 
 **Total Sales by Region:**
 
-- The South dominates with 42.2% of total sales, making it a crucial market.
+- The South dominates with 44.2% of total sales, making it a crucial market.
 - The West lags with 14.3%, indicating potential for growth.
 
 **Total Sales by Month:**
