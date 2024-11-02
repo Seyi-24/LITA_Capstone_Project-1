@@ -156,7 +156,7 @@ o.product = p.product AND o.OrderDate >= DATE_SUB)CURDATE(), INTERVAL 3 MONTH)
 
 **Total Sales by Month:**
 
-- February 2023 and 2024 show consistently high sales, suggesting seasonal demand.
+- February has the highest sales, suggesting seasonal demand.
 - April records the lowest sales in 2023 and second-lowest in 2024, indicating potential seasonal slump.
 
 **Average Sales per Product:**
