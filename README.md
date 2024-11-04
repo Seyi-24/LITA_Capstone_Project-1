@@ -3,7 +3,6 @@
 
 ## Table of Content
 
-- Introduction [Introduction](#introduction)
 - Project Overview [Project Overview](#project-overview)
 - Data Description [Data Description](#data-description)
 - Data Cleaning [Data Cleaning](#data-cleaning)
@@ -18,7 +17,6 @@
  ### Introduction 
 Sales analysis is crucial for businesses inform data-driven decisions. This project explores sales performance,focusing on top-selling products,regional performance,and monthly sales trends.
 
- ### Project Overview 
  - Objectives:
  1. Identify top-selling products.
  2. Evaluate regional performance.
