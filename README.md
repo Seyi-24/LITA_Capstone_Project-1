@@ -69,6 +69,7 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
 
  This Pivot table sheet shows the summary of total sales by product,region, and month. 
 
+
 ![Excel Sales Performance Chart](https://github.com/user-attachments/assets/0eb6f824-af50-4073-8006-d4e69f1e8996)
 
 - ### MySQL Analysis
