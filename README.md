@@ -9,10 +9,10 @@
 - Data Cleaning [Data Cleaning](#data-cleaning)
 - Tool Used:
   - Excel Analysis [Excel Analysis](#excel-analysis)
-  - MySQL Analysis [MySQL Analysis](#mysql_analysis)
-  - Power BI Analysis [Power BI Analysis](#power_bi_analysis)
-
-- Insights and Findings 
+  - MySQL Analysis [MySQL Analysis](#mysql-analysis)
+  - Power BI Analysis [Power BI Analysis](#power-bi-analysis)
+- Visualization [Visualizations](#visualizations)
+- Key Insights and Recommendations [Key Insights and Recommendations](#key-Insights-and-recommendations) 
 -Conclusion 
 
  ### Introduction 
@@ -65,12 +65,11 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
 - Top 
 - Pivot Tables 
  
- 
+ ![Sales Performance Pivot Table](https://github.com/user-attachments/assets/106b61e4-89eb-4ee0-9ad4-5cca1f83ef42)
+
  This Pivot table sheet shows the summary of total sales by product,region, and month. 
 
 ![Excel Sales Performance Chart](https://github.com/user-attachments/assets/0eb6f824-af50-4073-8006-d4e69f1e8996)
-![Sales Performance Pivot Table](https://github.com/user-attachments/assets/106b61e4-89eb-4ee0-9ad4-5cca1f83ef42)
-![Sales Dashboard - Power BI](https://github.com/user-attachments/assets/9eb520c3-55cb-46db-bffd-f94cb518de84)
 
 - ### MySQL Analysis
 
@@ -170,8 +169,9 @@ o.product = p.product AND o.OrderDate >= DATE_SUB)CURDATE(), INTERVAL 3 MONTH)
 - Hats top the list with 15,929 units sold, demonstrating popularity.
 - Jackets has the lowest with 5,452 units sold, suggesting opportunities to boost sales.
 
-### visualizations 
+### Visualizations 
 
+![Sales Dashboard - Power BI](https://github.com/user-attachments/assets/9eb520c3-55cb-46db-bffd-f94cb518de84)
 
 
 *Key Insights and Recommendations:*
