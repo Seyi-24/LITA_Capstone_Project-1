@@ -75,6 +75,7 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
 
 1. Total 
 Sales by Product Category 
+
 ```sql
 SELECT SUM(Quantity*UnitPrice) AS TotalSales
 FROM lita_capstone_dataset_salesdata
@@ -83,6 +84,7 @@ ORDER BY TotalSales DESC;
 ```
 
 2. Number of Sales Transactions in each Region 
+
 ```sql
 SELECT Region, COUNT(OrderID) AS Number_of_Sales_Transactions
 FROM lita_capstone_dataset_salesdata
@@ -90,6 +92,7 @@ GROUP BY Region;
 ```
 
 3. Highest Selling-Product by Total Sales Value
+
 ```sql
 SELECT Product,SUM(Quantity*UnitPrice) AS Total_Sales_Value
 FROM lita_capstone_dataset_salesdata
@@ -99,6 +102,7 @@ LIMIT 1;
 ```
 
 4. Total Revenue by Product 
+
 ```sql
 SELECT Product, SUM(Quantity*UnitPrice) AS Total_Revenue
 FROM lita_capstone_dataset_salesdata
@@ -107,6 +111,7 @@ ORDER BY Total_Revenue DESC;
 ```
 
 5. Monthly Sales Total for the current year 
+
 ```sql
 SELECT MONTHNAME(OrderDate) AS Month,SUM(Quantity*UnitPrice) AS Total_Sales
 FROM lita_capstone_dataset_salesdata
@@ -116,6 +121,7 @@ ORDER BY Total_Sales DESC;
 ```
 
 6. Top 5 Customers by Total Purchase Amount
+
 ```sql
 SELECT CustomerId,SUM(Quantity*UnitPrice) AS Total_Purchase_Amount
 FROM lita_capstone_dataset_salesdata
@@ -125,6 +131,7 @@ LIMIT 5;
 ```
 
 7. Percentage (%) of Total Sales Contributed by each Region 
+
 ```sql
 SELECT Region,SUM(Quantity*UnitPrice) AS Total_Sales,
 (SUM(Quantity*UnitPrice) / (SELECT SUM(Quantity*UnitPrice) FROM lita_capstone_dataset_salesdata * 100 AS percentage 
@@ -132,7 +139,8 @@ FROM lita_capstone_dataset_salesdata
 GROUP BY Region;
 ```
 
-8. Products with no Sales in the last Quarter 
+8. Products with no Sales in the last Quarter
+ 
 ```sql
 SELECT p.product
 FROM (SELECT DISTINCT product FROM lita_capstone_dataset_salesdata) p
