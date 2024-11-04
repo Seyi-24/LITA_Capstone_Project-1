@@ -13,7 +13,7 @@
   - Power BI Analysis [Power BI Analysis](#power-bi-analysis)
 - Visualization [Visualizations](#visualizations)
 - Key Insights and Recommendations [Key Insights and Recommendations](#key-Insights-and-recommendations) 
--Conclusion 
+- Conclusion [Conclution](#conclusion) 
 
  ### Introduction 
 Sales analysis is crucial for businesses inform data-driven decisions. This project explores sales performance,focusing on top-selling products,regional performance,and monthly sales trends.
