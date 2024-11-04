@@ -24,7 +24,7 @@ Sales analysis is crucial for businesses inform data-driven decisions. This proj
  2. Evaluate regional performance.
  3. Analyze monthly sales trend.
 
- - Methodology:
+ - Methodology
   - Data analysis using Microsoft Excel,MySQL,and Power BI.
   - Data visualizations and insights.
 
