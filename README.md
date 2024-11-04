@@ -65,16 +65,18 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
 - Top 
  - Pivot Tables 
 
- ![Pivot Table](https://github.com/user-attachments/assets/4be695da-a2b5-4760-be99-0573e420b57d)
+ 
  
  This Pivot table sheet shows the summary of total sales by product,region, and month. 
 
- ![Excel Dashboard](https://github.com/user-attachments/assets/e05cf58d-f029-4354-97fe-fecd2183ee69)
-
+![Excel Sales Performance Chart](https://github.com/user-attachments/assets/0eb6f824-af50-4073-8006-d4e69f1e8996)
+![Sales Performance Pivot Table](https://github.com/user-attachments/assets/106b61e4-89eb-4ee0-9ad4-5cca1f83ef42)
+![Sales Dashboard - Power BI](https://github.com/user-attachments/assets/9eb520c3-55cb-46db-bffd-f94cb518de84)
 
 - ### MySQL Analysis
 
-1. Total Sales by Product Category 
+1. Total 
+Sales by Product Category 
 ```sql
 SELECT SUM(Quantity*UnitPrice) AS TotalSales
 FROM lita_capstone_dataset_salesdata
