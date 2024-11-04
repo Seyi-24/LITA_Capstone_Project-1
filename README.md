@@ -47,7 +47,7 @@ Sales analysis is crucial for businesses inform data-driven decisions. This proj
   ### Data Cleaning 
  - Data Import: Imported Sales data into my Microsoft Excel
  - Data Inspection: Reviewed data for duplicates records 
- - Data Transformation: converted data format to YYYY-MM-DD
+ - Data Transformation: converted data format to YYYY/MM/DD
 
 ### Tool Used
 - Microsoft Excel for data cleaning and transformation 
