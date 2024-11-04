@@ -165,7 +165,7 @@ o.product = p.product AND o.OrderDate >= DATE_SUB)CURDATE(), INTERVAL 3 MONTH)
 - Shirts boast the highest average sales (326.56), indicating strong product appeal.
 - Socks have the lowest average sales (121.82), highlighting room for improvement.
 
-*Product Quantity Sold:*
+**Product Quantity Sold:**
 
 - Hats top the list with 15,929 units sold, demonstrating popularity.
 - Jackets has the lowest with 5,452 units sold, suggesting opportunities to boost sales.
