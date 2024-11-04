@@ -63,8 +63,7 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
 - Total Sales: 2,101,090 (formula: =SUM(Total Sales Column)
 - Average Sales: 211.78 (formula: =AVERAGE(Total Sales Column)
 - Top 
- - Pivot Tables 
-
+- Pivot Tables 
  
  
  This Pivot table sheet shows the summary of total sales by product,region, and month. 
