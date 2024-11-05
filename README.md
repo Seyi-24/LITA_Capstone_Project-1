@@ -12,7 +12,8 @@
   - Power BI Analysis [Power BI Analysis](#power-bi-analysis)
 - Visualization [Visualizations](#visualizations)
 - Key Insights and Recommendations [Key Insights and Recommendations](#key-Insights-and-recommendations) 
-- Conclusion [Conclution](#conclusion) 
+- Conclusion [Conclusion](#conclusion) 
+--- 
 
  ### Project Overview 
 Sales analysis is crucial for businesses inform data-driven decisions. This project explores sales performance,focusing on top-selling products,regional performance,and monthly sales trends.
@@ -25,6 +26,7 @@ Sales analysis is crucial for businesses inform data-driven decisions. This proj
  - Methodology
   - Data analysis using Microsoft Excel,MySQL,and Power BI.
   - Data visualizations and insights.
+---
 
  ### Data Description 
  - Data Source: Public Sales dataset
@@ -41,17 +43,20 @@ Sales analysis is crucial for businesses inform data-driven decisions. This proj
 
 - Notes: This dataset represents sales transactions for a retail store.
 - Data Format: xlsx
+--- 
 
   ### Data Cleaning 
  - Data Import: Imported Sales data into my Microsoft Excel
  - Data Inspection: Reviewed data for duplicates records 
  - Data Transformation: converted data format to YYYY/MM/DD
 
+---
 
 ### Tool Used
 - Microsoft Excel for data cleaning and transformation 
 - MySQL for analysis 
 - Power BI for modeling and visualization
+--- 
 
 ### Excel Analysis 
 Objectives: Analyze sales data to identify trends,patterns,and insights.
@@ -70,6 +75,7 @@ Objectives: Analyze sales data to identify trends,patterns,and insights.
 
 
 ![Excel Sales Performance Chart](https://github.com/user-attachments/assets/0eb6f824-af50-4073-8006-d4e69f1e8996)
+---
 
 - ### MySQL Analysis
 
@@ -151,6 +157,7 @@ WHERE
 o.product = p.product AND o.OrderDate >= DATE_SUB)CURDATE(), INTERVAL 3 MONTH)
 )
 ```
+---
 
 - ###Power BI Analysis 
 
@@ -176,11 +183,13 @@ o.product = p.product AND o.OrderDate >= DATE_SUB)CURDATE(), INTERVAL 3 MONTH)
 
 - Hats top the list with 15,929 units sold, demonstrating popularity.
 - Jackets has the lowest with 5,452 units sold, suggesting opportunities to boost sales.
+---
 
 ### Visualizations 
 
 ![Sales Dashboard - Power BI](https://github.com/user-attachments/assets/9eb520c3-55cb-46db-bffd-f94cb518de84)
 
+---
 
 *Key Insights and Recommendations:*
 
@@ -189,6 +198,7 @@ o.product = p.product AND o.OrderDate >= DATE_SUB)CURDATE(), INTERVAL 3 MONTH)
 3. Seasonal Strategies: Develop seasonal marketing campaigns to capitalize on February demand and mitigate April slowdowns.
 4. Product Development: Consider introducing new Shirt variants or bundling strategies to maintain high sales.
 5. Inventory Management: Monitor Hat demand and adjust inventory accordingly to meet customer needs.
+---
 
 ### Conclusion:
 
